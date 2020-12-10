@@ -1,0 +1,105 @@
+* {
+    box-sizing: border-box;
+  }
+
+body {
+    margin: 0;
+    font-family: 'IM Fell French Canon SC', serif;
+    background-color: white;
+    color: black;
+    padding: 0px;
+    margin:0px;
+    border: 0px;
+}
+
+a {
+    color: black;
+}
+
+.header {
+    text-align: center;
+}
+ .about {
+     border-top: 1px solid black;
+     font-family: 'Raleway', sans-serif;
+     margin: 20px;
+     padding: 80px;
+ }
+
+
+/* image gallery */
+/* image gallery */
+/* image gallery */
+/* image gallery */
+/* image gallery */
+@media all and (min-width: 801px){
+#photo-gallery {
+    margin-left: 20%;
+}
+}
+.outer-grid {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+ }
+ .inner-grid {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+ }
+ .inner-grid img {
+    margin-top: 8px;
+    width: 100%;
+    padding: 10px;
+ }
+
+ .inner-grid img:hover {
+    opacity: 1;
+  }
+
+ @media screen and (max-width: 800px) {
+     .photo-gallery {
+         margin-left: -20% !important;
+     }
+    .inner-grid {
+       flex: 50%;
+       max-width: 50%;
+    }
+ }
+ @media screen and (max-width: 600px) {
+    .photo-gallery {
+        margin-left: -20% !important;
+    }
+    .inner-grid {
+       flex: 100%;
+       max-width: 100%;
+    }
+ }
+
+ 
+
+  /* The expanding image container (positioning is needed to position the close button and the text) */
+.container {
+    margin-right: 25%;
+    position: relative;
+    display: none;
+  }
+  
+  /* Expanding image text */
+  #imgtext {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    color: white;
+    font-size: 20px;
+  }
+  
+  /* Closable button inside the image */
+  .closebtn {
+    position: absolute;
+    top: -30px;
+    right: 15px;
+    color: white;
+    font-size: 60px;
+    cursor: pointer;
+  }
