@@ -120,6 +120,13 @@ a:hover {
       width: 100%;
       height: auto;
      } */
+     .about {
+      border-top: 1px solid black;
+      font-family: 'Raleway', sans-serif;
+      margin: 20px;
+      padding: 20px;
+      font-size: 20px;
+  }
  }
  @media screen and (max-width: 600px) {
     .photo-gallery {
@@ -129,6 +136,14 @@ a:hover {
        flex: 100%;
        max-width: 100%;
     }
+
+    .about {
+      border-top: 1px solid black;
+      font-family: 'Raleway', sans-serif;
+      margin: 20px;
+      padding: 20px;
+      font-size: 20px;
+  }
     /* .work { 
       background-image: url("assets/abandoned-everything/d2.jpg");
       width: 100%;
