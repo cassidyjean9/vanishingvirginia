@@ -126,6 +126,12 @@ a:hover {
       margin: 20px;
       padding: 20px;
       font-size: 20px;
+     }
+
+      .container {
+        display: none !important;
+
+      }
   }
  }
  @media screen and (max-width: 600px) {
@@ -149,6 +155,12 @@ a:hover {
       width: 100%;
       height: auto;
      } */
+
+
+     .container {
+      display: none !important;
+
+    }
  }
 
  
