@@ -35,7 +35,7 @@ a:hover {
      border-top: 1px solid black;
      font-family: 'Raleway', sans-serif;
      margin: 20px;
-     padding: 80px;
+     padding: 40px;
      font-size: 30px;
  }
 
@@ -120,18 +120,15 @@ a:hover {
       width: 100%;
       height: auto;
      } */
+
      .about {
       border-top: 1px solid black;
       font-family: 'Raleway', sans-serif;
-      margin: 20px;
-      padding: 20px;
-      font-size: 20px;
+      margin: 10px;
+      padding: 10px !important;
+      font-size: 15px;
      }
 
-      .container {
-        display: none !important;
-
-      }
   }
  }
  @media screen and (max-width: 600px) {
@@ -146,9 +143,9 @@ a:hover {
     .about {
       border-top: 1px solid black;
       font-family: 'Raleway', sans-serif;
-      margin: 20px;
-      padding: 20px;
-      font-size: 20px;
+      margin: 10px;
+      padding: 10px !important;
+      font-size: 15px;
   }
     /* .work { 
       background-image: url("assets/abandoned-everything/d2.jpg");
@@ -157,8 +154,7 @@ a:hover {
      } */
 
 
-     .container {
-      display: none !important;
+    
 
     }
  }
