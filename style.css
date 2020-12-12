@@ -16,70 +16,34 @@ a {
     color: black;
 }
 
+a:hover {
+  color: black;
+  text-decoration: underline;
+}
+
 .header {
     text-align: center;
 }
+
+/* .work  { 
+  background-image: url("assets/abandoned-houses/a22.jpg");
+  width: 100%;
+  height: auto;
+ } */
+
  .about {
      border-top: 1px solid black;
      font-family: 'Raleway', sans-serif;
      margin: 20px;
      padding: 80px;
+     font-size: 30px;
  }
 
 
-/* image gallery */
-/* image gallery */
-/* image gallery */
-/* image gallery */
-/* image gallery */
-@media all and (min-width: 801px){
-#photo-gallery {
-    margin-left: 20%;
-}
-}
-.outer-grid {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 0 4px;
- }
- .inner-grid {
-    flex: 25%;
-    max-width: 25%;
-    padding: 0 4px;
- }
- .inner-grid img {
-    margin-top: 8px;
-    width: 100%;
-    padding: 10px;
- }
 
- .inner-grid img:hover {
-    opacity: 1;
-  }
-
- @media screen and (max-width: 800px) {
-     .photo-gallery {
-         margin-left: -20% !important;
-     }
-    .inner-grid {
-       flex: 50%;
-       max-width: 50%;
-    }
- }
- @media screen and (max-width: 600px) {
-    .photo-gallery {
-        margin-left: -20% !important;
-    }
-    .inner-grid {
-       flex: 100%;
-       max-width: 100%;
-    }
- }
-
- 
 
   /* The expanding image container (positioning is needed to position the close button and the text) */
-.container {
+  .container {
     margin-right: 25%;
     position: relative;
     display: none;
@@ -103,3 +67,74 @@ a {
     font-size: 60px;
     cursor: pointer;
   }
+
+/* image gallery */
+/* image gallery */
+/* image gallery */
+/* image gallery */
+/* image gallery */
+
+
+.outer-grid {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+.inner-grid img {
+  margin-top: 8px;
+  width: 100%;
+  padding: 10px;
+}
+
+.inner-grid img:hover {
+  opacity: 0.5;
+}
+
+
+@media screen and (min-width: 801px){
+  #photo-gallery {
+    margin-left: 20%;
+
+  }
+  .inner-grid {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+  }
+}
+
+
+
+
+ @media screen and (min-width:601px) and (max-width: 800px) {
+     .photo-gallery {
+         margin-left: -20% !important;
+     }
+    .inner-grid {
+       flex: 50%;
+       max-width: 50%;
+    }
+    /* .work { 
+      background-image: url("assets/abandoned-everything/d2.jpg");
+      width: 100%;
+      height: auto;
+     } */
+ }
+ @media screen and (max-width: 600px) {
+    .photo-gallery {
+        margin-left: -20% !important;
+    }
+    .inner-grid {
+       flex: 100%;
+       max-width: 100%;
+    }
+    /* .work { 
+      background-image: url("assets/abandoned-everything/d2.jpg");
+      width: 100%;
+      height: auto;
+     } */
+ }
+
+ 
+
