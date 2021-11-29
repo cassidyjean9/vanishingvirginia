@@ -65,11 +65,10 @@ h1.header {
     margin-right: 25%;
     position: relative;
     display: none;
-  }
-
-  img {
     border: 2px solid red;
   }
+
+
   
   /* Expanding image text */
   #imgtext {
