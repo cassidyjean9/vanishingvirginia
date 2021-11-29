@@ -1,28 +1,30 @@
 * {
     box-sizing: border-box;
+    background-color: black;
   }
 
 body {
     margin: 0;
-    font-family: 'IM Fell French Canon SC', serif;
-    background-color: white;
-    color: black;
+    font-family: 'Estonia', cursive;
+    background-color:black;
+    color:white;
     padding: 0px;
     margin:0px;
     border: 0px;
 }
 
 a {
-    color: black;
+    color: white;
 }
 
 a:hover {
-  color: black;
+  color: white;
   text-decoration: underline;
 }
 
 .header {
     text-align: center;
+    font-family: 'Yuji Syuku', serif;
 }
 
 /* .work  { 
@@ -32,7 +34,7 @@ a:hover {
  } */
 
  .about {
-     border-top: 1px solid black;
+     border-top: 1px solid white;
      font-family: 'Raleway', sans-serif;
      margin: 20px;
      padding: 40px;
