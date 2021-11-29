@@ -66,6 +66,10 @@ h1.header {
     position: relative;
     display: none;
   }
+
+  img {
+    border: 2px solid red;
+  }
   
   /* Expanding image text */
   #imgtext {
