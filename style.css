@@ -19,7 +19,7 @@ a {
     font-size: 30px;
     color: white;
     
-    padding-bottom: 20px;
+    margin-bottom: 20px;
 }
 
 a:hover {
@@ -29,12 +29,15 @@ a:hover {
 }
 
 .header {
-    margin-top: 40px;
+    margin-top: 30px;
     text-align: center;
     font-family: 'Yuji Syuku', serif;
     font-size: 40px;
 }
 
+h1.header {
+  font-size: 30px;
+}
 .red-dot {
   color: red;
 }
@@ -131,12 +134,7 @@ a:hover {
        max-width: 50%;
     }
 
-    .header {
-      margin-top: 20px;
-      text-align: center;
-      font-family: 'Yuji Syuku', serif;
-      font-size: 40px;
-  }
+   
     /* .work { 
       background-image: url("assets/abandoned-everything/d2.jpg");
       width: 100%;
@@ -170,12 +168,7 @@ a:hover {
       font-size: 15px;
   }
 
-  .header {
-    margin-top: 20px;
-    text-align: center;
-    font-family: 'Yuji Syuku', serif;
-    font-size: 40px;
-}
+
     /* .work { 
       background-image: url("assets/abandoned-everything/d2.jpg");
       width: 100%;
