@@ -1,14 +1,14 @@
 * {
     box-sizing: border-box;
-    background-color: black;
+    background-color: #181818;
   }
 
 body {
     margin: 0;
     font-family: 'Estonia', cursive;
-    font-size: 60px;
-    background-color:black;
-    color:white;
+    font-size: 30px;
+    background-color:#181818;
+    color:whitesmoke;
     padding: 0px;
     margin:0px;
     border: 0px;
@@ -27,8 +27,10 @@ a:hover {
 }
 
 .header {
+    margin-top: 40px;
     text-align: center;
     font-family: 'Yuji Syuku', serif;
+    font-size: 60px;
 }
 
 /* .work  { 
