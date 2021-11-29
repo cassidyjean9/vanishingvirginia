@@ -35,6 +35,10 @@ a:hover {
     font-size: 60px;
 }
 
+.red-dot {
+  color: red;
+}
+
 /* .work  { 
   background-image: url("assets/abandoned-houses/a22.jpg");
   width: 100%;
