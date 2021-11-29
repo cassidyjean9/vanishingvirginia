@@ -6,6 +6,7 @@
 body {
     margin: 0;
     font-family: 'Estonia', cursive;
+    font-size: 40px;
     background-color:black;
     color:white;
     padding: 0px;
@@ -35,11 +36,11 @@ a:hover {
 
  .about {
      border-top: 1px solid white;
-     font-family: 'Raleway', sans-serif;
+     font-family: 'Estonia', cursive;
      margin: 20px;
      margin-top: 40px;
      padding: 40px;
-     font-size: 30px;
+     font-size: 40px;
  }
 
 
