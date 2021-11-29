@@ -24,7 +24,8 @@ a {
 
 a:hover {
   color: white;
-  text-decoration: underline;
+  text-decoration: underline !important;
+  text-decoration-color: red !important;
 }
 
 .header {
