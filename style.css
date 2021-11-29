@@ -6,7 +6,7 @@
 body {
     margin: 0;
     font-family: 'Estonia', cursive;
-    font-size: 40px;
+    font-size: 60px;
     background-color:black;
     color:white;
     padding: 0px;
@@ -16,6 +16,7 @@ body {
 }
 
 a {
+  font-size: 30px;
     color: white;
 }
 
@@ -41,7 +42,7 @@ a:hover {
      margin: 20px;
      margin-top: 40px;
      padding: 40px;
-     font-size: 40px;
+     font-size: 30px;
  }
 
 
