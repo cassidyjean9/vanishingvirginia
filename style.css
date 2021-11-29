@@ -16,7 +16,7 @@ body {
 }
 
 a {
-    font-size: 30px;
+    font-size: 25px;
     color: white;
     
     margin-bottom: 20px;
@@ -29,10 +29,10 @@ a:hover {
 }
 
 .header {
-    margin-top: 30px;
+    margin-top: 40px;
     text-align: center;
     font-family: 'Yuji Syuku', serif;
-    font-size: 40px;
+    font-size: 30px;
 }
 
 h1.header {
@@ -168,7 +168,7 @@ h1.header {
       font-size: 15px;
   }
 
-
+ 
     /* .work { 
       background-image: url("assets/abandoned-everything/d2.jpg");
       width: 100%;
