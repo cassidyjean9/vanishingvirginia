@@ -18,7 +18,8 @@ body {
 a {
   font-size: 30px;
     color: white;
-    border-bottom: 1px red
+    border-bottom: 1px red;
+    margin-bottom: 20px;
 }
 
 a:hover {
