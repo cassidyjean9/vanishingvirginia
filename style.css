@@ -130,6 +130,13 @@ a:hover {
        flex: 50%;
        max-width: 50%;
     }
+
+    .header {
+      margin-top: 20px;
+      text-align: center;
+      font-family: 'Yuji Syuku', serif;
+      font-size: 60px;
+  }
     /* .work { 
       background-image: url("assets/abandoned-everything/d2.jpg");
       width: 100%;
@@ -162,6 +169,13 @@ a:hover {
       padding: 10px !important;
       font-size: 15px;
   }
+
+  .header {
+    margin-top: 20px;
+    text-align: center;
+    font-family: 'Yuji Syuku', serif;
+    font-size: 60px;
+}
     /* .work { 
       background-image: url("assets/abandoned-everything/d2.jpg");
       width: 100%;
