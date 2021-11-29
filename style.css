@@ -1,14 +1,14 @@
 * {
     box-sizing: border-box;
-    background-color: #080808;
+    background-color: whitesmoke
   }
 
 body {
     margin: 0;
     font-family: 'Estonia', cursive;
     font-size: 30px;
-    background-color:#080808;
-    color:whitesmoke;
+    background-color:whitesmoke;
+    color:#080808;
     padding: 0px;
     margin:0px;
     border: 0px;
@@ -17,13 +17,13 @@ body {
 
 a {
     font-size: 25px;
-    color: white;
+    color: #080808;
     font-family: 'Estonia', cursive;
     margin-bottom: 20px;
 }
 
 a:hover {
-  color: white;
+  color: #080808;
   text-decoration: underline !important;
   text-decoration-color: red !important;
 }
@@ -99,7 +99,7 @@ h1.header {
   display: flex;
   flex-wrap: wrap;
   padding: 0 4px;
-  border: 1px solid white;
+
 }
 
 .inner-grid img {
